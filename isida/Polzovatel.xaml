@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="isida.Polzovatel">
+    
+    <StackLayout Padding="15">
+        <Label x:Name="user_info" FontSize="18" TextColor="#066839"></Label>
+        <Label x:Name="user_name_label" FontSize="18" TextColor="#bf3939" Margin="0, 20, 0, 0">Введите ФИО:</Label>
+        <Entry x:Name="user_name" Placeholder="Иванов Иван Иванович"/>
+        <Label x:Name="user_phone_label" FontSize="18" TextColor="#bf3939">Введите телефон:</Label>
+        <Entry x:Name="user_phone" Placeholder="79876543210" Keyboard="Numeric" MaxLength="11" />
+        <Button Text="Сохранить"  Clicked="OnClick" CornerRadius="5" BackgroundColor="#066839" TextColor="#fff"/>
+        <Label Text='СОГЛАСИЕ на обработку персональных данных.' FontSize="16" FontAttributes="Bold" TextColor="#066839" Margin="0,10,0,0"/>
+        <ScrollView>
+            <StackLayout Margin="0,5,0,0">
+                <Label x:Name="Soglasie"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

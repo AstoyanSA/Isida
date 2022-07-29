@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="isida.TovKorzina">
+
+    <StackLayout Padding="15">
+        <ListView x:Name="tovKorzList" HasUnevenRows="True" ItemsSource="{Binding KorzList}" ItemSelected="OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal" Margin="0,5">
+                                <StackLayout>
+                                    <Label FontAttributes="Bold" TextColor="#066839" FontSize="16" Text="Наименование: "/>
+                                    <Label FontAttributes="Bold" TextColor="#066839" FontSize="16" Text="Цена (руб.): "/>
+                                    <Label FontAttributes="Bold" TextColor="#066839" FontSize="16" Text="Количество (шт.): "/>
+                                </StackLayout>
+                                <StackLayout >
+                                    <Label TextColor="#000" FontSize="16" Text="{Binding Name}"/>
+                                    <Label TextColor="#000" FontSize="16" Text="{Binding Cost}"/>
+                                    <Label TextColor="#000" FontSize="16" Text="{Binding Kol}"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label Text="Введите данные!" x:Name="user_label" FontSize="16" IsVisible="False"/>
+        <Label x:Name="Itog" FontSize="20" FontAttributes="Bold" TextColor="#000"/>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Доставка" FontSize="20" TextColor="#000"/>
+            <CheckBox x:Name="dostavka" IsChecked="True" Color="#066839" Scale="0.8" CheckedChanged="dostavkaCheck"/>
+        </StackLayout>
+        <Entry x:Name="user_adress" Placeholder="ул. Советской Армии д. 94"/>
+        <Button Text="Заказать" Clicked="Zakaz" CornerRadius="5" BackgroundColor="#066839" TextColor="#fff"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,43 @@
+D:\visual projects\isida\isida\isida\bin\Debug\netstandard2.0\isida.deps.json
+D:\visual projects\isida\isida\isida\bin\Debug\netstandard2.0\isida.dll
+D:\visual projects\isida\isida\isida\bin\Debug\netstandard2.0\isida.pdb
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\Korzina.xaml.g.cs
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\Tabbed.xaml.g.cs
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\isida.AssemblyInfoInputs.cache
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\isida.AssemblyInfo.cs
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\isida.csproj.CoreCompileInputs.cache
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\XamlC.stamp
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\isida.dll
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\ref\isida.dll
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\isida.pdb
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\Kabinet.xaml.g.cs
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\Polzovatel.xaml.g.cs
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\Tovari.xaml.g.cs
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\TovKorzina.xaml.g.cs
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\ChangeKorz.xaml.g.cs
+C:\Users\astoy\Desktop\isida\isida\isida\bin\Debug\netstandard2.0\isida.deps.json
+C:\Users\astoy\Desktop\isida\isida\isida\bin\Debug\netstandard2.0\isida.dll
+C:\Users\astoy\Desktop\isida\isida\isida\bin\Debug\netstandard2.0\ref\isida.dll
+C:\Users\astoy\Desktop\isida\isida\isida\bin\Debug\netstandard2.0\isida.pdb
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\isida.csproj.AssemblyReference.cache
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\ChangeKorz.xaml.g.cs
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\Kabinet.xaml.g.cs
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\Korzina.xaml.g.cs
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\Polzovatel.xaml.g.cs
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\Tabbed.xaml.g.cs
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\Tovari.xaml.g.cs
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\TovKorzina.xaml.g.cs
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\isida.AssemblyInfoInputs.cache
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\isida.AssemblyInfo.cs
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\isida.csproj.CoreCompileInputs.cache
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\isida.dll
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\ref\isida.dll
+C:\Users\astoy\Desktop\isida\isida\isida\obj\Debug\netstandard2.0\isida.pdb
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\isida.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\isida.csproj.AssemblyReference.cache
+D:\visual projects\isida\isida\isida\obj\Debug\netstandard2.0\refint\isida.dll

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="isida.MainPage">
+
+    <ScrollView>
+
+        <StackLayout Padding="15" x:Name="SrollStack">
+            <Image Source="lg.png"/>
+            <StackLayout Margin="0,0,0,10">
+                <Label Text='Аптечный пункт ООО "ИСИДА" ' TextColor="#066839" FontSize="24" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                <Label Text= "Адрес: г. Армавир, ул. Маркова, д. 343" TextColor="#066839" FontSize="16" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                <Label Text="Часы работы: 8:00 - 20:00" TextColor="#066839" FontSize="16" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                <Label Text="Телефон: 8 (918) 166-07-41" TextColor="#066839" FontSize="16" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            </StackLayout>
+            
+            <Label Text='Скидочная карта' TextColor="#066839" FontSize="24" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            <Label Text='(предъявите в аптеке)' TextColor="#066839" FontSize="20" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            <Image Source="barcode.gif" />
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>

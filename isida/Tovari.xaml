@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Список товаров"
+             x:Class="isida.Tovari">
+
+    <StackLayout Padding="15">
+        <SearchBar x:Name="MainSearchBar" TextChanged="SearchBar_TextChanged" Placeholder="Поиск"/>
+        <ListView x:Name="tovarList" ItemsSource="{Binding TovList}" ItemSelected="OnItemSelected" BackgroundColor="#fff">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Label FontAttributes="Bold" TextColor="#066839" Text="{Binding Name}" FontSize="Medium" TextTransform="Uppercase"/>
+                                <Label TextColor="#000" Text="{Binding Cost}" FontSize="Medium" />
+                                <Label TextColor="#000" Text="руб." FontSize="Medium"/>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+ 
+</ContentPage>

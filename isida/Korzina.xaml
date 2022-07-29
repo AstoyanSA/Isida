@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" 
+             Title="Выбор товара"
+             x:Class="isida.Korzina">
+
+    <StackLayout Padding="15">
+        <Label FontAttributes="Bold" TextColor="#066839" FontSize="16" Text="Наименование:" />
+        <Entry Text="{Binding Name}" IsReadOnly="True"/>
+        <Label FontAttributes="Bold" TextColor="#066839" FontSize="16" Text="Цена (руб.):" />
+        <Entry Text="{Binding Cost}" IsReadOnly="True"/>
+        <Label FontAttributes="Bold" TextColor="#066839" FontSize="16" Text="Количество (шт.):" />
+        <Entry Text="{Binding Kol}" x:Name="EntryKol" Keyboard="Numeric" Placeholder="1"/>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Добавить в корзину" Clicked="SaveTovar" CornerRadius="5" BackgroundColor="#066839" TextColor="#fff"/>
+        </StackLayout>
+    </StackLayout>
+    
+</ContentPage>

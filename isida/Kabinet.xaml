@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" 
+             BarBackgroundColor="#066839"
+             BarTextColor="#fff"
+             android:TabbedPage.BarItemColor="#fff"
+             xmlns:isida="clr-namespace:isida"
+             x:Class="isida.Kabinet">
+    <TabbedPage.Children>
+        <isida:Polzovatel Title="Данные" IconImageSource="dannie.png"></isida:Polzovatel>
+        <isida:TovKorzina Title="Корзина" IconImageSource="korzina.png"></isida:TovKorzina>
+    </TabbedPage.Children>
+</TabbedPage>
